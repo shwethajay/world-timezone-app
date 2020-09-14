@@ -34,7 +34,7 @@
       				 <muleVersion>4.2.2</muleVersion>
      				 <username>shwethaRama18</username>
       				 <password>Skandashine*8</password>
-    			  	<applicationName>Worldtimezone-Service</applicationName>
+    			  	<applicationName>Worldtimezone</applicationName>
      				 <environment>Sandbox</environment>
      				 <workers>1</workers>
      				 <workerType>Micro</workerType>
