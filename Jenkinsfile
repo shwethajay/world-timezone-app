@@ -4,7 +4,7 @@ agent any
 
 stages{
 
-stage{'Build Application'}{
+stage('Build Application'){
 
 steps{
 
@@ -15,7 +15,7 @@ bat 'mvn clean install'
 
 }
 
-stage{'Deploy Application'}{
+stage('Deploy Application'){
 
 
 
@@ -26,9 +26,9 @@ bat 'mvn package deploy -DmuleDeploy'
 
 }
 
-stage{'Perform regression testing'}{
+stage('Perform regression testing'){
 steps{
-bat 'newman run D:\\Worldtimezone.postman_collection.json --disable-unicode'
+bat 'C:\\Users\\Skanda\\AppData\\Roaming\\npm\\newman run D:\\Worldtimezone.postman_collection.json --disable-unicode'
 }
 
 }
