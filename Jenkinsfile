@@ -28,7 +28,7 @@ bat 'mvn package deploy -DmuleDeploy'
 
 stage{'Perform regression testing'}{
 steps{
-bat 'newman run D:\Worldtimezone.postman_collection.json --disable-unicode'
+bat 'newman run D:\\Worldtimezone.postman_collection.json --disable-unicode'
 }
 
 }
