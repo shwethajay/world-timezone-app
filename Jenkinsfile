@@ -8,6 +8,7 @@ stage{'Build Application'}{
 
 steps{
 
+
 bat 'mvn clean install'
 
 }
