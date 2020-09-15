@@ -16,6 +16,8 @@ bat 'mvn clean install'
 
 stage{'Deploy Application'}{
 
+
+
 steps{
 
 bat 'mvn package deploy -DmuleDeploy'
